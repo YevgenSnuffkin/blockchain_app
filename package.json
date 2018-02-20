@@ -1,0 +1,36 @@
+{
+  "name": "blockchain-app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8000/",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "blockchain.info": "^2.11.0",
+    "concurrently": "^3.5.1",
+    "json-server": "^0.12.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-linechart": "^1.1.12",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "redux-form": "^7.2.3",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \"node ./server/server.js\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/YevgenSnuffkin/blockchain_app"
+  },
+  "author": "yevgen reminetsky",
+  "license": "ISC"
+}
